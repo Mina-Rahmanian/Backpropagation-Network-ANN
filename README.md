@@ -10,10 +10,22 @@ Useful bits of knowledge before start:
 
 ## Data MNIST handwritten digit Description
 
-+ You will use the handwritten character database for this practice by Lecunet al available at the following [here](http://neuralnetworksanddeeplearning.com/chap1.html).
++ You will use the handwritten character database for this practice by Lecunet al available at the following [here](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/MNIST%20handwritten%20digit%20database%2C%20Yann%20LeCun%2C%20Corinna%20Cortes%20an.pdf).
++ Four files are available as bellow written:
+  - training set images (9912422 bytes) -> [train-images-idx3-ubyte.gz](http://neuralnetworksanddeeplearning.com/chap1.html).
+  - training set labels (28881 bytes) [train-images-idx3-ubyte.gz](http://neuralnetworksanddeeplearning.com/chap1.html)
+  - test set images (1648877 bytes)  [train-images-idx3-ubyte.gz](http://neuralnetworksanddeeplearning.com/chap1.html)
+  - test set labels (4542 bytes) [train-images-idx3-ubyte.gz](http://neuralnetworksanddeeplearning.com/chap1.html)
 
 
+<br /><br />
 
+| Files                     | Data Size   | Task                               | 
+| --------------------------|-------|:----------------------------------:|
+|[train-images-idx3-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/train-images-idx3-ubyte.gz) | 9912422 bytes  | training set images                   |
+|[train-labels-idx1-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/train-labels-idx1-ubyte.gz)               | 28881 bytes  | training set labels         | 
+|[t10k-images-idx3-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/t10k-images-idx3-ubyte.gz)               | 1648877 bytes  | test set images |
+|[t10k-labels-idx1-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/t10k-labels-idx1-ubyte.gz)  |   4542 bytes   |   test set labels                             |<br />
 
 
 
