@@ -1,4 +1,4 @@
-# Backpropagation Network ANN
+# Backpropagation Network ANN (Using MNIST Data)
 <br />
 
 Useful bits of knowledge before start:
