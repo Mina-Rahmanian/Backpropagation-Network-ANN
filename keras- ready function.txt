@@ -17,19 +17,19 @@ import matplotlib.image as mpimg
 %matplotlib inline
 
 from tensorflow.examples.tutorials.mnist import input_data
-input_data.read_data_sets('C:/Assignment2')
+input_data.read_data_sets('C:/mina')
 
 
 from tensorflow.contrib.learn.python.learn.datasets.mnist import extract_images, extract_labels
 
-with open('C:/Assignment2/train-images-idx3-ubyte.gz', 'rb') as f:
+with open('C:/mina/train-images-idx3-ubyte.gz', 'rb') as f:
   train_images = extract_images(f)
-with open('C:/Assignment2/train-labels-idx1-ubyte.gz', 'rb') as f:
+with open('C:/mina/train-labels-idx1-ubyte.gz', 'rb') as f:
   train_labels = extract_labels(f)
 
-with open('C:/Assignment2/t10k-images-idx3-ubyte.gz', 'rb') as f:
+with open('C:/mina/t10k-images-idx3-ubyte.gz', 'rb') as f:
   test_images = extract_images(f)
-with open('C:/Assignment2/t10k-labels-idx1-ubyte.gz', 'rb') as f:
+with open('C:/mina/t10k-labels-idx1-ubyte.gz', 'rb') as f:
   test_labels = extract_labels(f)
 
 import numpy as np
