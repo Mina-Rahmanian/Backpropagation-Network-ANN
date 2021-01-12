@@ -25,17 +25,22 @@ Useful bits of knowledge before start:
 
 -----------------------------------------------------------------------------------------------------
 
+# Introduction
+
++ We implemented a Backpropagation training algorithm in a multilayer perception to learn to classify handwritten characters using the MNIST training dataset and the corresponding label dataset.
++ The input should be the training data and the output should be the corresponding digit class. In other words, we must decide the following design criteria: <br />
+  - Initial weights and learning rate
+  - Training iterations and terminating criteria
+  - Number of layers and nodes
+  - Momentum
++ We implemented the Backpropagation algorithm to solve this problem. Use sigmoidal output function at every layer and node. ``We did not use any GUI based tool or built-in libraries to create/train/test the ANN``.
++ 
+
+
 # Solution
 
 
-
-
-
-
-
-
-
-
+Here I used ``50 hidden nodes``, ``784 input nodes`` and ``10 output nodes``. And also, I consider ``Learning rate 0.1``, ``the number of epoch 10``.
 
 
 
