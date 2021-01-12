@@ -55,12 +55,17 @@ Also, I have calculated the results using the ready functions from Keras [Keras_
 
 
 
+### Critical discussion:
+
+
+The overall result is acceptable with the range of 97%, before adding the momentum the result was weaker but thenafter and by choosing alpha=0.5 the obtained results were more convincing. The reason of picking 0.5 value is that the 0 value neglects its effect and the value of 1 reduces the effects of the error value of the previous step on the estimation of the correct weight update for the current step.
+
+The main factors in determining the quality of the results and timing are the number of hidden nodes, learning rate and the momentum value. The higher hidden nodes and lower learning rate increases the accuracy but also the running time.<br /><br />
 
 
 
 
-
-
+## ** Mina R **
 
 
 
