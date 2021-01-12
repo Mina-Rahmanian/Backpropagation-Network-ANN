@@ -43,8 +43,11 @@ Useful bits of knowledge before start:
 Here I used ``50 hidden nodes``, ``784 input nodes`` and ``10 output nodes``. And also, I consider ``Learning rate 0.1``, ``the number of epoch 10``.
 
 
+<p align="center">
+<img width="700" height="350" alt="gg" src="https://user-images.githubusercontent.com/71558720/104351744-c8e1b580-54d3-11eb-9cc1-dcd2f7e79706.PNG">
+<p align="center"><br /><br />
 
-
+Also, I have calculated the results using the ready functions from Keras [Keras_Backpropagation .ipynb](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/Keras_Backpropagation%20.ipynb), and the corresponding result is attached in a [Keras_ready function.txt](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/keras-%20ready%20function.txt).<br />
 
 
 
