@@ -12,13 +12,13 @@ Useful bits of knowledge before start:
 
 + You will use the handwritten character database for this practice by Lecunet al available at the following [here](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/MNIST%20handwritten%20digit%20database%2C%20Yann%20LeCun%2C%20Corinna%20Cortes%20an.pdf).
 + Four files are available as bellow written:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 | Files                     | Data Size   | Task                               | 
 | --------------------------|-------|:----------------------------------:|
 |[train-images-idx3-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/train-images-idx3-ubyte.gz) | 9912422 bytes  | training set images                   |
 |[train-labels-idx1-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/train-labels-idx1-ubyte.gz)               | 28881 bytes  | training set labels         | 
 |[t10k-images-idx3-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/t10k-images-idx3-ubyte.gz)               | 1648877 bytes  | test set images |
-|[t10k-labels-idx1-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/t10k-labels-idx1-ubyte.gz)  |   4542 bytes   |   test set labels                             |<br />
+|[t10k-labels-idx1-ubyte.gz](https://github.com/Mina-Rahmanian/Backpropagation-Network-ANN/blob/main/t10k-labels-idx1-ubyte.gz)  |   4542 bytes   |   test set labels                             |<br /><br />
 
 
 + MNIST dataset can also be loaded directly in Python using packages such as Kerasand scikit-learn.<br />
